@@ -2,7 +2,7 @@ import { Reveal } from "@/components/reveal";
 
 export default function Blog() {
   return (
-    <main className="relative flex min-h-screen w-full max-w-full items-center justify-center overflow-hidden px-5 py-32 text-center sm:px-10">
+    <main className="relative flex min-h-[calc(100vh-12rem)] w-full max-w-full items-center justify-center overflow-hidden px-5 py-32 text-center sm:px-10">
       <div className="grain" />
       <div className="orb left-1/2 top-1/2 h-80 w-80 -translate-x-1/2 -translate-y-1/2 bg-lilac/25 blur-3xl" />
 

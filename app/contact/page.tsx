@@ -2,7 +2,7 @@ import { Reveal } from "@/components/reveal";
 
 export default function Contact() {
   return (
-    <main className="relative flex min-h-screen w-full max-w-full items-center overflow-hidden px-5 py-32 sm:px-10">
+    <main className="relative flex min-h-[calc(100vh-12rem)] w-full max-w-full items-center overflow-hidden px-5 py-32 sm:px-10">
       <div className="grain" />
       <div className="orb right-[-9rem] top-[20%] h-96 w-96 bg-coral" />
       <section className="relative mx-auto w-full max-w-6xl">
@@ -19,7 +19,7 @@ export default function Contact() {
         >
           <a
             href="mailto:kwakuanor18@gmail.com"
-            className="display text-xl text-nowrap font-black break-all transition-colors hover:text-coral sm:text-xl md:text-2xl"
+            className="display text-lg text-nowrap font-black break-all transition-colors hover:text-coral sm:text-xl md:text-2xl"
           >
             kwakuanor18@gmail.com ↗
           </a>
